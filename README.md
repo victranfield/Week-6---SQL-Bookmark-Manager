@@ -1,47 +1,25 @@
 # Week-6---SQL-Bookmark-Manager
 
-# Bookmark Manager
-
-This week, you will build a web app that stores web bookmarks in a database.
-
-## Learning objectives
-
-### Goals for the week
-
-Ask yourself the same two questions:
-
-- Are you having fun?
-
-- Are you a better developer than you were yesterday?
-
-#### Primary goal
-
-By the end of the week, the goal is to be able to answer "yes" to the week's primary question:
-
-- **Can you build a web app that uses a database?**
-
-### Reminder of all this week's goals from the [Week Outlines](https://github.com/makersacademy/course/blob/master/week_outlines.md)
-
-By the end of the week all developers can:
-
-* Build a simple web app with a database (this pirmary goal breaks down into the two sub-goals below)
-* Follow an effective debugging process for database applications
-* Explain the basics of how databases work (e.g. tables, SQL, basic relationships)
-
-### Main focuses for this week
-
-- Agile and TDD
-- Engineering and 'Dev Recipes'
-- Databases
-- Tooling
-
-As well as these things, you'll deepen your understanding of many of the [skills and concepts from week 3](https://github.com/makersacademy/course/tree/master/intro_to_the_web).
-
-> The Learning Objectives are available in more detail [here](./learning_objectives.md).
-
 ## The project
 
 You're going to build a bookmark manager.  A bookmark manager is a website to maintain a collection of bookmarks (URLs). You can use it to save a webpage you found useful. You can add tags to the webpages you saved to find them later. You can browse bookmarks other users have added. You can comment on the bookmarks.
+
+### Bookmark Manager - User Stories
+
+- As an avid research user
+	I would like to see the list of my existing bookmarks
+	so that I can review my bookmarks
+	[![](https://mermaid.ink/img/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5Vc2VyIC0-PitCcm93c2VyOiBjbGlja3MgJ2Jvb2ttYXJrcydcbkJyb3dzZXIgLT4-K0NvbnRyb2xsZXI6IEdFVCAvYm9va21hcmtzXG5Db250cm9sbGVyLT4-KyBNb2RlbDogY2xhc3MgQm9va21hcmtcbk1vZGVsLS0-Pi1Db250cm9sbGVyOiBMaXN0IG9mIGFsbCBib29rbWFya3NcbkNvbnRyb2xsZXItPj4rVmlldzogcmVuZGVyIDplcmIoYm9va21hcmtzKSB3aXRoIFVSTCBsaW5rc1xuVmlldy0tPj4tQ29udHJvbGxlcjogSFRNTFxuQ29udHJvbGxlci0tPj4tQnJvd3NlcjogUE9TVCAyMDAgT0ssIGJvZHkgSFRNTFxuQnJvd3Nlci0tPj4tVXNlcjogc2VlIGxpc3Qgb2YgYWxsIGJvb2ttYXJrc1xuXG5cdFx0XHRcdFx0IiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5Vc2VyIC0-PitCcm93c2VyOiBjbGlja3MgJ2Jvb2ttYXJrcydcbkJyb3dzZXIgLT4-K0NvbnRyb2xsZXI6IEdFVCAvYm9va21hcmtzXG5Db250cm9sbGVyLT4-KyBNb2RlbDogY2xhc3MgQm9va21hcmtcbk1vZGVsLS0-Pi1Db250cm9sbGVyOiBMaXN0IG9mIGFsbCBib29rbWFya3NcbkNvbnRyb2xsZXItPj4rVmlldzogcmVuZGVyIDplcmIoYm9va21hcmtzKSB3aXRoIFVSTCBsaW5rc1xuVmlldy0tPj4tQ29udHJvbGxlcjogSFRNTFxuQ29udHJvbGxlci0tPj4tQnJvd3NlcjogUE9TVCAyMDAgT0ssIGJvZHkgSFRNTFxuQnJvd3Nlci0tPj4tVXNlcjogc2VlIGxpc3Qgb2YgYWxsIGJvb2ttYXJrc1xuXG5cdFx0XHRcdFx0IiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0 "User Story 1 - see list of bookmarks available")
+
+- As an avid research user
+	I would like a to be able to add a bookmark
+	so that I do not forget my favourite sites 
+
+- As an avid research user
+	I would like to be able to delete bookmarks
+	so that I can remove obsolete bookmarks
+
+This is the basic view of the website. You will build it by working through the sequence of challenges. As you go on, we will be challenging you to extend the functionality of this website.
 
 ### User Interface Sketch (Hi-Fi)
 
