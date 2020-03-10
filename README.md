@@ -12,7 +12,7 @@ You're going to build a bookmark manager.  A bookmark manager is a website to ma
 	[![](https://mermaid.ink/img/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5Vc2VyIC0-PitCcm93c2VyOiBjbGlja3MgJ2Jvb2ttYXJrcydcbkJyb3dzZXIgLT4-K0NvbnRyb2xsZXI6IEdFVCAvYm9va21hcmtzXG5Db250cm9sbGVyLT4-KyBNb2RlbDogY2xhc3MgQm9va21hcmtcbk1vZGVsLS0-Pi1Db250cm9sbGVyOiBib29rbWFyay5saXN0X2FsbFxuQ29udHJvbGxlci0-PitWaWV3OiByZW5kZXIgOmVyYihib29rbWFya3MpIHdpdGggVVJMIGxpbmtzXG5WaWV3LS0-Pi1Db250cm9sbGVyOiBIVE1MXG5Db250cm9sbGVyLS0-Pi1Ccm93c2VyOiBQT1NUIDIwMCBPSywgYm9keSBIVE1MXG5Ccm93c2VyLS0-Pi1Vc2VyOiBzZWUgbGlzdCBvZiBhbGwgYm9va21hcmtzXG5cblx0XHRcdFx0XHQiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5Vc2VyIC0-PitCcm93c2VyOiBjbGlja3MgJ2Jvb2ttYXJrcydcbkJyb3dzZXIgLT4-K0NvbnRyb2xsZXI6IEdFVCAvYm9va21hcmtzXG5Db250cm9sbGVyLT4-KyBNb2RlbDogY2xhc3MgQm9va21hcmtcbk1vZGVsLS0-Pi1Db250cm9sbGVyOiBib29rbWFyay5saXN0X2FsbFxuQ29udHJvbGxlci0-PitWaWV3OiByZW5kZXIgOmVyYihib29rbWFya3MpIHdpdGggVVJMIGxpbmtzXG5WaWV3LS0-Pi1Db250cm9sbGVyOiBIVE1MXG5Db250cm9sbGVyLS0-Pi1Ccm93c2VyOiBQT1NUIDIwMCBPSywgYm9keSBIVE1MXG5Ccm93c2VyLS0-Pi1Vc2VyOiBzZWUgbGlzdCBvZiBhbGwgYm9va21hcmtzXG5cblx0XHRcdFx0XHQiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ "List of all Bookmarks")
 
 - As an avid research user
-	I would like a to be able to add a bookmark
+	I would like a to be able to add the sites address and title to my bookmark manager
 	so that I do not forget my favourite sites 
 
 - As an avid research user
@@ -20,6 +20,13 @@ You're going to build a bookmark manager.  A bookmark manager is a website to ma
 	so that I can remove obsolete bookmarks
 
 This is the basic view of the website. You will build it by working through the sequence of challenges. As you go on, we will be challenging you to extend the functionality of this website.
+
+### Database Instructions
+1. Connect to 'psql'
+2. Create the database using the 'psql' command 'CREATE DATABASE bookmark_manager;'
+3. Connect to the database using the 'psql' command '\c bookmark_manager;'
+4. Run the query we have saved in the file '01_create_bookmarks_table.sql'
+
 
 ### User Interface Sketch (Hi-Fi)
 
@@ -31,9 +38,6 @@ This is the basic view of the website. You will build it by working through the 
 
 The challenge material is pretty tough this week. You're not meant to get through it all.  As always at Makers, focus on deep learning, rather than progression through the challenges.
 
-### Sequence & Schedule
-* [Onsite](../sequence/onsite/week04.md)
-* [Remote](../sequence/remote/week04.md)
 
 ## Challenges
 
