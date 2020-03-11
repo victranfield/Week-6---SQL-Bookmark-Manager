@@ -6,18 +6,18 @@ You're going to build a bookmark manager.  A bookmark manager is a website to ma
 
 ### Bookmark Manager - User Stories
 
-- As an avid research user
+- ```As an avid research user
 	I would like to see the list of my existing bookmarks
-	so that I can review my bookmarks
+	so that I can review my bookmarks```
 	[![](https://mermaid.ink/img/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5Vc2VyIC0-PitCcm93c2VyOiBjbGlja3MgJ2Jvb2ttYXJrcydcbkJyb3dzZXIgLT4-K0NvbnRyb2xsZXI6IEdFVCAvYm9va21hcmtzXG5Db250cm9sbGVyLT4-KyBNb2RlbDogY2xhc3MgQm9va21hcmtcbk1vZGVsLS0-Pi1Db250cm9sbGVyOiBib29rbWFyay5saXN0X2FsbFxuQ29udHJvbGxlci0-PitWaWV3OiByZW5kZXIgOmVyYihib29rbWFya3MpIHdpdGggVVJMIGxpbmtzXG5WaWV3LS0-Pi1Db250cm9sbGVyOiBIVE1MXG5Db250cm9sbGVyLS0-Pi1Ccm93c2VyOiBQT1NUIDIwMCBPSywgYm9keSBIVE1MXG5Ccm93c2VyLS0-Pi1Vc2VyOiBzZWUgbGlzdCBvZiBhbGwgYm9va21hcmtzXG5cblx0XHRcdFx0XHQiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG5Vc2VyIC0-PitCcm93c2VyOiBjbGlja3MgJ2Jvb2ttYXJrcydcbkJyb3dzZXIgLT4-K0NvbnRyb2xsZXI6IEdFVCAvYm9va21hcmtzXG5Db250cm9sbGVyLT4-KyBNb2RlbDogY2xhc3MgQm9va21hcmtcbk1vZGVsLS0-Pi1Db250cm9sbGVyOiBib29rbWFyay5saXN0X2FsbFxuQ29udHJvbGxlci0-PitWaWV3OiByZW5kZXIgOmVyYihib29rbWFya3MpIHdpdGggVVJMIGxpbmtzXG5WaWV3LS0-Pi1Db250cm9sbGVyOiBIVE1MXG5Db250cm9sbGVyLS0-Pi1Ccm93c2VyOiBQT1NUIDIwMCBPSywgYm9keSBIVE1MXG5Ccm93c2VyLS0-Pi1Vc2VyOiBzZWUgbGlzdCBvZiBhbGwgYm9va21hcmtzXG5cblx0XHRcdFx0XHQiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9fQ "List of all Bookmarks")
 
-- As an avid research user
-	I would like a to be able to add the sites address and title to my bookmark manager
-	so that I do not forget my favourite sites 
+- ```As an avid research user
+	I would like a to be able to add the site address to my bookmark manager
+	so that I do not forget my favourite sites ```
 
-- As an avid research user
+- ```As an avid research user
 	I would like to be able to delete bookmarks
-	so that I can remove obsolete bookmarks
+	so that I can remove obsolete bookmarks```
 
 This is the basic view of the website. You will build it by working through the sequence of challenges. As you go on, we will be challenging you to extend the functionality of this website.
 
